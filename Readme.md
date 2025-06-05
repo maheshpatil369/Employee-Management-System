@@ -33,5 +33,36 @@ TaskOps is a sleek and minimal task management dashboard built using **React** a
 
 ---
 
+---
+
+## ⚙️ Functions, Hooks & APIs Used
+
+### ✅ React Hooks
+- `useState` – Manage component state
+- `useEffect` – Handle side effects (e.g., syncing with LocalStorage)
+
+### 🌐 React Context API
+- Global user management using `AuthContext` and `AuthProvider`
+
+### 💾 LocalStorage Helpers
+Located in `utils/localStorage.jsx`:
+- `getLocalStorage()` – Fetches and parses LocalStorage data
+- `setLocalStorage()` – Updates LocalStorage with modified data
+
+### 📊 Task Management Logic
+- Task filtering based on status (`new`, `accepted`, `completed`, `failed`)
+- Dashboard view changes dynamically based on user role
+- Components render conditionally based on logged-in user
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/maheshpatil369/Employee-Management-System.git
+cd Employee-Management-System
+
+
 ## 📁 Project Folder Structure
 
