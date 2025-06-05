@@ -1,47 +1,37 @@
-# 🚀 TaskOps – Role-Based Task Management Dashboard
+# TaskOps – Role-Based Task Management Dashboard
 
-TaskOps is a sleek and responsive role-based task management dashboard built using **React** and **Tailwind CSS**.
-
-This lightweight yet functional web app allows **admins to assign tasks** and **employees to manage their assignments in real time** — all powered by **LocalStorage**, with no backend required.
+TaskOps is a sleek and minimal task management dashboard built using **React** and **Tailwind CSS**, designed to manage and assign tasks based on user roles. It's completely frontend-based and uses **LocalStorage** for persistent data – making it fast, secure, and backend-free.
 
 ---
 
-## 📸 Demo
+## 🚀 Live Demo
 
-🎬 [Watch Project Demo on YouTube](https://youtu.be/ZEXJYcjO7lA)  
-🔗 [Live Project Link (if hosted)](https://your-deployment-link.com) *(optional)*
-
----
-
-## 🔧 Built With
-
-- ⚛️ React
-- 🎨 Tailwind CSS
-- 🧠 React Hooks: `useState`, `useEffect`
-- 🌐 Context API for state management
-- 💾 LocalStorage for data persistence
+🌐 [View TaskOps Live](https://employee-management-system-maheshpatil369s-projects.vercel.app/)
 
 ---
 
-## 🔐 Roles & Test Credentials
+## 🔐 Login Credentials
 
-| Role      | Email                  | Password  |
-|-----------|------------------------|-----------|
-| Admin     | `admin@taskops.com`    | `admin123` *(example)* |
-| Employee  | `employee1@taskops.com`| `emp123`   *(example)* |
-| Employee  | `employee2@taskops.com`| `emp123`   *(example)* |
+### 👨‍💼 Admin
+- **Email:** `admin@example.com`
+- **Password:** `123`
+
+### 👨‍🔧 Employees
+- **Email:** `employee2@example.com`, `employee3@example.com`
+- **Password:** `123`
 
 ---
 
 ## ✨ Features
 
-- 🔐 Role-based login system
-- 📋 Admin can assign tasks with title and description
-- ✅ Employees can view and update task status
-- 🌙 Dark mode friendly UI
-- 💾 LocalStorage used to persist data without backend
+- ✅ Role-based login: Admin vs Employee
+- 📋 Admin can assign new tasks with title & description
+- 👷 Employees can view tasks and update status: Accept, Complete, Fail
+- 🌑 Fully Responsive Dark Mode UI
+- 💾 Data persistence using LocalStorage
+- 🧠 Uses core React patterns like Context API and hooks
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Folder Structure
 
