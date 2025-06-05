@@ -64,5 +64,3 @@ git clone https://github.com/maheshpatil369/Employee-Management-System.git
 cd Employee-Management-System
 
 
-## 📁 Project Folder Structure
-
