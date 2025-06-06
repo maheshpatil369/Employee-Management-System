@@ -62,5 +62,6 @@ Located in `utils/localStorage.jsx`:
 ```bash
 git clone https://github.com/maheshpatil369/Employee-Management-System.git
 cd Employee-Management-System
+npm install
 
 
